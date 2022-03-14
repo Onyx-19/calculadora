@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Reto 2 | Calculadora</title>
+</head>
+
+<body class="body">
+    <div class="calc">
+        <div class="header">
+            <h2>calc</h2>
+            <div class="themeCont">
+                <div class="themeId">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                </div>
+                <div class="theme">
+                    <h6>THEME</h6>
+                    <div class="themeContSel">
+
+                        <input class="themeSel1" name="prefer" type="radio" value="theme1">
+                        <input class="themeSel2" name="prefer" type="radio" value="theme2">
+                        <input class="themeSel3" name="prefer" type="radio" value="theme3">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <form id="form">
+                <div class="result">
+                    <span class="operacion"></span>
+                    <span id="resultado" class="res"></span>
+                </div>
+                <div class="main">
+                    <div class="table">
+                        <div>
+                            <button id="siete" class="value" value="7">7</button>
+                            <button id="ocho" class="value" value="8">8</button>
+                            <button id="nueve" class="value" value="9">9</button>
+                            <button id="delete" class="value2" value="del">DEL</button>
+                        </div>
+                        <div>
+                            <button id="cuatro" class="value" value="4">4</button>
+                            <button id="cinco" class="value" value="5">5</button>
+                            <button id="seis" class="value" value="6">6</button>
+                            <button id="suma" class="value" value="+">+</button>
+                        </div>
+                        <div>
+                            <button id="uno" class="value" value="1">1</button>
+                            <button id="dos" class="value" value="2">2</button>
+                            <button id="tres" class="value" value="3">3</button>
+                            <button id="resta" class="value" value="-">-</button>
+                        </div>
+                        <div>
+                            <button id="punto" class="value" value=".">.</button>
+                            <button id="cero" class="value" value="0">0</button>
+                            <button id="division" class="value" value="/">/</button>
+                            <button id="multiplicacion" class="value" value="*">x</button>
+                        </div>
+                        <div>
+                            <button id="reset" class="value3" value="res">RESET</button>
+                            <button id="igual" class="value4" value="=">=</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- <div class="attribution">Coded by <a href="#">Your Name Here</a></div> -->
+
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
